@@ -1,0 +1,78 @@
+/* =============
+    Base
+============= */
+figure{
+    padding: 0;
+    margin: 0;
+}
+
+ul{
+    padding: 0;
+    margin: 0;
+    li{
+        list-style: none;
+    }
+}
+
+.grid-container{
+    display: grid;
+    grid-template-columns: 15px auto 15px;
+    grid-template-areas: ". container .";
+
+    @include xl{
+        grid-template-columns: auto 1440px auto;
+    }
+
+    >div{
+        grid-area: container;
+    }
+}
+
+.content-spacing{
+    padding: 70px 0 50px;
+}
+
+.button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+
+    a:link,
+    a:visited{
+        border-radius: 20px;
+        padding: 5px 10px;
+        background-color: transparent;
+        border: 2px solid $bright-yellow;
+        transition: 0.25s;
+        color: $bright-yellow;
+        text-decoration: none;
+    }
+    
+    a:hover,
+    a:active{
+        background-color: $bright-yellow;
+        color: $white;
+        text-decoration: none;
+    }
+    
+}
+
+
+.thought-bubble-left{
+    
+        border-radius: 20px;
+        padding: 5px 10px 5px 10px;
+        background-color: $white;
+        // border: 2px solid $bright-yellow;
+        width: 200px;
+}
+
+.thought-bubble-right{
+    
+    border-radius: 20px;
+    // padding: 5px 10px 5px 10px;
+    background-color: $white;
+    // border: 2px solid $bright-yellow;
+    width: 100px;
+}
