@@ -501,6 +501,8 @@ textarea {
     @media (min-width: 768px) {
       #content #child {
         width: 450px; } }
+    #content #child #mask-juice {
+      clip-path: inset(0.5% 20% 0 0%); }
   #content #sun {
     overflow: hidden;
     margin-left: auto;

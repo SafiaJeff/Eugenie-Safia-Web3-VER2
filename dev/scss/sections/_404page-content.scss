@@ -112,6 +112,10 @@
             // border-bottom: 10px $light-green solid;
         }
 
+        #mask-juice{
+            clip-path: inset(.5% 20% 0 0%);
+        }
+
     }
 
     #sun {
