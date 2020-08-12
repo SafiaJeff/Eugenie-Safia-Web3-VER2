@@ -118,8 +118,7 @@
         overflow: hidden;
         margin-left: auto;
         display: block;
-
-        padding-right: 23px;
+        padding: 100px 20px 150px 0px;
         width: 250px;
         // margin-bottom: -55px;
 
@@ -138,13 +137,7 @@
         
         display: inline-block;
         margin: 0 auto;
-
-        margin-bottom: 50px;
-
-        @include lg{
-            margin-bottom: 200px;
-        }
-        
+        margin-bottom: 200px;
 
         #lemon1 {
             height: 100px;
@@ -242,35 +235,12 @@
 
     #story-text {
         overflow: hidden;
-        border: red 2px solid;
-
-        p{
-            background-color: $white;
-            font-size: rem-calc(25);
-            font-family: 'Caveat', cursive;
-            padding: 10px;
-            border-radius: 25px;     
-            border: solid 2px $dark-gray;
-
-            margin: 100px 0px;
-
-            @include md{
-                width: 200px;
-                border: none;
-            }
-
-            @include lg{
-                font-size: rem-calc(30);
-                width: 170px;
-            }
-        }
         
         .story-left {
             text-align: left;
-           
             // padding-left: 200px;
 
-            margin-left: 100px;
+            margin-left: 50px;
 
             @include md{
                 margin-left: 100px;
@@ -279,97 +249,85 @@
             @include lg{
                 margin-left: 200px;
             }
+            
 
         }
 
         .story-right {
             text-align: right;
+            // padding-right: 200px;
+            // padding-top: 400px;
 
-            margin-left: 50px;
-    
+            margin-left: 100px;
+            margin-top: 400px;
+
             @include md{
                 margin-left: 500px;
             }
 
             @include lg{
                 margin-left: 1000px;
-                margin-left: 100px;
-            margin-top: 400px;
             }
             
             
         }
 
-    
-        
-        #part1L{
-            width: 190px;
+        p{
+            background-color: $white;
+            font-size: rem-calc(25);
+            font-family: 'Caveat', cursive;
+            padding: 10px;
+            border-radius: 25px;
+
+            
+            border: solid 2px $dark-gray;
+            
+
+            width: 170px;
+
+            @include md{
+                width: 200px;
+                border: none;
+            }
 
             @include lg{
-                width: 210px;
-                padding-left: 20px;
+                font-size: rem-calc(30);
             }
-            
-            
+        }
+        
+        #part1L{
+            width: 210px;
+            padding-left: 20px;
         }
         
         #part1R{
-            width: 120px;
-            @include lg{
-                width: 130px;
-                padding-right: 20px;
-            }
-            
-            
+            width: 130px;
+            padding-right: 20px;
         }
 
         #part2L{
-            width: 70px;
-            @include lg{
-                width: 90px;
-                padding-left: 20px;
-            }
-            
-            
+            width: 90px;
+            padding-left: 20px;
         }
 
         #part2R{
-            width: 80px;
-            @include lg{
-                width: 100px;
-                padding-right: 20px;
-            }
-           
-            
+            width: 100px;
+            padding-right: 20px;
         }
 
         #part3L{
-            width: 90px;
-            @include lg{
-                width: 120px;
-                padding-left: 20px;
-            }
-            
-           
+            width: 120px;
+            padding-left: 20px;
         }
 
         #part3R{
-            width: 110px;
-            @include lg{
-                width: 130px;
-                padding-right: 20px;
-            } 
-        }
-
-        #part4L{
-            width: 190px;
+            width: 130px;
+            padding-right: 20px;
         }
         #part1,
         #part2,
         #part3 {
-            padding-bottom: 0px;
-            @include lg{ padding-bottom: 300px;}
-           
+            padding-bottom: 300px;
         }
 
         #stand-hours {
