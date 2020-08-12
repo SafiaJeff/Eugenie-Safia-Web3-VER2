@@ -494,18 +494,19 @@ textarea {
   #content #down-arrow {
     font-size: 1.875rem; }
   #content #child {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 300px; }
-    @media (min-width: 768px) {
-      #content #child {
-        width: 450px; } }
+    border: 2px red solid;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center; }
     #content #child #mask-juice {
-      clip-path: inset(1% 20% 0 0%); }
+      clip-path: inset(1% 0% 0 0%); }
       @media (min-width: 992px) {
         #content #child #mask-juice {
-          clip-path: inset(0.5% 20% 0 0%); } }
+          clip-path: inset(0.5% 0% 0 0%); } }
+    #content #child svg {
+      width: 40%; }
   #content #sun {
     overflow: hidden;
     margin-left: auto;
@@ -677,3 +678,8 @@ textarea {
         #content #story-text #stand-hours {
           margin-top: 262px;
           padding: 150px 0px 140px 0px; } }
+  #content #end #stand-hours {
+    text-align: center;
+    display: relative;
+    z-index: 20;
+    background-color: #FFFDF3; }
