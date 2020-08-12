@@ -1,5 +1,5 @@
-var leftXPercent =10;
-var RightXPercent = -10;
+var leftXPercent =5;
+var RightXPercent = -5;
 
 var storyTextTimeline = gsap.timeline();
 

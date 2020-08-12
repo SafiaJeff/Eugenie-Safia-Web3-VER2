@@ -440,7 +440,6 @@ textarea {
   #content #open-lemon {
     position: absolute;
     z-index: 1;
-    margin: 0px 6px;
     height: 360px;
     width: 360px; }
     #content #open-lemon svg {
@@ -506,7 +505,7 @@ textarea {
     overflow: hidden;
     margin-left: auto;
     display: block;
-    padding: 100px 20px 150px 0px;
+    padding: 0px 20px 50px 0px;
     width: 250px; }
     @media (min-width: 768px) {
       #content #sun {
@@ -519,7 +518,7 @@ textarea {
   #content #lemons {
     display: inline-block;
     margin: 0 auto;
-    margin-bottom: 200px; }
+    margin-bottom: 100px; }
     #content #lemons #lemon1 {
       height: 100px;
       width: 100px;
@@ -598,7 +597,7 @@ textarea {
     #content #story-text .story-right {
       text-align: right;
       margin-left: 100px;
-      margin-top: 400px; }
+      margin-top: 200px; }
       @media (min-width: 768px) {
         #content #story-text .story-right {
           margin-left: 500px; } }
@@ -611,41 +610,71 @@ textarea {
       font-family: 'Caveat', cursive;
       padding: 10px;
       border-radius: 25px;
-      border: solid 2px #515151;
-      width: 170px; }
+      border: solid 2px #515151; }
       @media (min-width: 768px) {
         #content #story-text p {
           width: 200px;
           border: none; } }
       @media (min-width: 992px) {
         #content #story-text p {
-          font-size: 1.875rem; } }
+          font-size: 1.875rem;
+          width: 170px; } }
     #content #story-text #part1L {
-      width: 210px;
-      padding-left: 20px; }
+      width: 180px; }
+      @media (min-width: 992px) {
+        #content #story-text #part1L {
+          width: 210px;
+          padding-left: 20px; } }
     #content #story-text #part1R {
-      width: 130px;
-      padding-right: 20px; }
+      width: 120px; }
+      @media (min-width: 992px) {
+        #content #story-text #part1R {
+          width: 130px;
+          padding-right: 20px; } }
     #content #story-text #part2L {
-      width: 90px;
-      padding-left: 20px; }
+      width: 80px; }
+      @media (min-width: 992px) {
+        #content #story-text #part2L {
+          width: 90px;
+          padding-left: 20px; } }
     #content #story-text #part2R {
-      width: 100px;
-      padding-right: 20px; }
+      width: 80px; }
+      @media (min-width: 992px) {
+        #content #story-text #part2R {
+          width: 100px;
+          padding-right: 20px; } }
     #content #story-text #part3L {
-      width: 120px;
-      padding-left: 20px; }
+      width: 100px; }
+      @media (min-width: 992px) {
+        #content #story-text #part3L {
+          width: 120px;
+          padding-left: 20px; } }
     #content #story-text #part3R {
-      width: 130px;
-      padding-right: 20px; }
+      width: 100px; }
+      @media (min-width: 992px) {
+        #content #story-text #part3R {
+          width: 130px;
+          padding-right: 20px; } }
+    #content #story-text #part4L {
+      width: 180px; }
+      @media (min-width: 992px) {
+        #content #story-text #part4L {
+          width: 200px; } }
     #content #story-text #part1,
     #content #story-text #part2,
     #content #story-text #part3 {
-      padding-bottom: 300px; }
+      padding-bottom: 200px; }
+      @media (min-width: 992px) {
+        #content #story-text #part1,
+        #content #story-text #part2,
+        #content #story-text #part3 {
+          padding-bottom: 300px; } }
     #content #story-text #stand-hours {
       text-align: center;
       display: relative;
       z-index: 20;
-      margin-top: 262px;
-      padding: 150px 0px 140px 0px;
       background-color: #FFFDF3; }
+      @media (min-width: 992px) {
+        #content #story-text #stand-hours {
+          margin-top: 262px;
+          padding: 150px 0px 140px 0px; } }
