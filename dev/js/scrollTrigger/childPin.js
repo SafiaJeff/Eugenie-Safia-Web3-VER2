@@ -2,8 +2,8 @@ gsap.to("#child",{scrollTrigger:{
     trigger:"#child",
     pin: true,
     pinSpacing: false,
-    start: "top 76",
-    end: "bottom -1850px",
-    // markers:true,
+    start: "top 80",
+    end: "bottom -1250px",
+    markers:true,
     id:"child-pin"
 }})

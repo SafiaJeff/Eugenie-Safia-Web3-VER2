@@ -259,7 +259,9 @@
             // padding-top: 400px;
 
             margin-left: 100px;
-            margin-top: 400px;
+            margin-top: 200px;
+
+
 
             @include md{
                 margin-left: 500px;
@@ -277,14 +279,9 @@
             font-size: rem-calc(25);
             font-family: 'Caveat', cursive;
             padding: 10px;
-            border-radius: 25px;
-
-            
+            border-radius: 25px; 
             border: solid 2px $dark-gray;
-            
-
-            width: 170px;
-
+ 
             @include md{
                 width: 200px;
                 border: none;
@@ -292,51 +289,94 @@
 
             @include lg{
                 font-size: rem-calc(30);
+                width: 170px;
             }
         }
         
         #part1L{
-            width: 210px;
+            width: 180px;
+            @include lg{
+                width: 210px;
             padding-left: 20px;
+            }
+            
         }
         
         #part1R{
-            width: 130px;
-            padding-right: 20px;
+            width: 120px;
+
+            @include lg{
+                width: 130px;
+                padding-right: 20px;
+            }
+           
         }
 
         #part2L{
-            width: 90px;
-            padding-left: 20px;
+            width: 80px;
+
+            @include lg{
+                width: 90px;
+                padding-left: 20px;
+            }
+            
         }
 
         #part2R{
-            width: 100px;
+            width: 80px;
+            @include lg{
+                width: 100px;
             padding-right: 20px;
+            }
+            
         }
 
         #part3L{
-            width: 120px;
-            padding-left: 20px;
+
+            width: 100px;
+            @include lg{
+                width: 120px;
+                padding-left: 20px;
+            }
+            
         }
 
         #part3R{
-            width: 130px;
+            width: 100px;
+            @include lg{
+                width: 130px;
             padding-right: 20px;
+            }
+            
+        }
+
+        #part4L{
+            width: 180px;
+            @include lg{
+                width: 200px;
+            }
         }
         #part1,
         #part2,
         #part3 {
-            padding-bottom: 300px;
+            padding-bottom: 200px;
+            @include lg{
+                padding-bottom: 300px;
+            }
+           
         }
 
         #stand-hours {
             text-align: center;
             display: relative;
             z-index: 20;
-            margin-top: 262px;
 
-            padding: 150px 0px 140px 0px;
+            @include lg{
+                margin-top: 262px;
+
+                padding: 150px 0px 140px 0px;
+            }
+            
             background-color: $background-yellow;
 
         }
