@@ -14,17 +14,18 @@ ScrollTrigger.create({
 });
 
 var strawTimeline = gsap.timeline();
-strawTimeline.to("#straw-juice",{duration:15, yoyo: true, yPercent: -5})
-            .to("#straw-juice",{duration:10, yPercent: 5})
-            .to("#straw-juice",{duration:10, yPercent: 80})
+strawTimeline
+// .to("#straw-juice",{duration:15, yoyo: true, yPercent: -5})
+            // .to("#straw-juice",{duration:10, yPercent: 5})
+            .to("#straw-juice",{duration:10, yPercent: -80})
 
             ScrollTrigger.create({
                 trigger: "#drinking-anim",
                 start: "top 40%",
-                end: "bottom 60%",
+                end: "bottom 80%",
                 animation: strawTimeline,
                 toggleActions: "restart none reverse none",
-                scrub: 1,
-                id: "straw"
-                // markers:  true
+                scrub: 10,
+                id: "straw",
+                markers:  true
             });
