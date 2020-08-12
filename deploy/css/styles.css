@@ -506,7 +506,7 @@ textarea {
     overflow: hidden;
     margin-left: auto;
     display: block;
-    padding: 100px 20px 150px 0px;
+    padding-right: 23px;
     width: 250px; }
     @media (min-width: 768px) {
       #content #sun {
@@ -519,7 +519,10 @@ textarea {
   #content #lemons {
     display: inline-block;
     margin: 0 auto;
-    margin-bottom: 200px; }
+    margin-bottom: 50px; }
+    @media (min-width: 992px) {
+      #content #lemons {
+        margin-bottom: 200px; } }
     #content #lemons #lemon1 {
       height: 100px;
       width: 100px;
@@ -585,10 +588,27 @@ textarea {
           #content #lemons #lemon3 svg {
             width: 100%; } }
   #content #story-text {
-    overflow: hidden; }
+    overflow: hidden;
+    border: red 2px solid; }
+    #content #story-text p {
+      background-color: #fff;
+      font-size: 1.5625rem;
+      font-family: 'Caveat', cursive;
+      padding: 10px;
+      border-radius: 25px;
+      border: solid 2px #515151;
+      margin: 100px 0px; }
+      @media (min-width: 768px) {
+        #content #story-text p {
+          width: 200px;
+          border: none; } }
+      @media (min-width: 992px) {
+        #content #story-text p {
+          font-size: 1.875rem;
+          width: 170px; } }
     #content #story-text .story-left {
       text-align: left;
-      margin-left: 50px; }
+      margin-left: 100px; }
       @media (min-width: 768px) {
         #content #story-text .story-left {
           margin-left: 100px; } }
@@ -597,51 +617,62 @@ textarea {
           margin-left: 200px; } }
     #content #story-text .story-right {
       text-align: right;
-      margin-left: 100px;
-      margin-top: 400px; }
+      margin-left: 50px; }
       @media (min-width: 768px) {
         #content #story-text .story-right {
           margin-left: 500px; } }
       @media (min-width: 992px) {
         #content #story-text .story-right {
-          margin-left: 1000px; } }
-    #content #story-text p {
-      background-color: #fff;
-      font-size: 1.5625rem;
-      font-family: 'Caveat', cursive;
-      padding: 10px;
-      border-radius: 25px;
-      border: solid 2px #515151;
-      width: 170px; }
-      @media (min-width: 768px) {
-        #content #story-text p {
-          width: 200px;
-          border: none; } }
-      @media (min-width: 992px) {
-        #content #story-text p {
-          font-size: 1.875rem; } }
+          margin-left: 1000px;
+          margin-left: 100px;
+          margin-top: 400px; } }
     #content #story-text #part1L {
-      width: 210px;
-      padding-left: 20px; }
+      width: 190px; }
+      @media (min-width: 992px) {
+        #content #story-text #part1L {
+          width: 210px;
+          padding-left: 20px; } }
     #content #story-text #part1R {
-      width: 130px;
-      padding-right: 20px; }
+      width: 120px; }
+      @media (min-width: 992px) {
+        #content #story-text #part1R {
+          width: 130px;
+          padding-right: 20px; } }
     #content #story-text #part2L {
-      width: 90px;
-      padding-left: 20px; }
+      width: 70px; }
+      @media (min-width: 992px) {
+        #content #story-text #part2L {
+          width: 90px;
+          padding-left: 20px; } }
     #content #story-text #part2R {
-      width: 100px;
-      padding-right: 20px; }
+      width: 80px; }
+      @media (min-width: 992px) {
+        #content #story-text #part2R {
+          width: 100px;
+          padding-right: 20px; } }
     #content #story-text #part3L {
-      width: 120px;
-      padding-left: 20px; }
+      width: 90px; }
+      @media (min-width: 992px) {
+        #content #story-text #part3L {
+          width: 120px;
+          padding-left: 20px; } }
     #content #story-text #part3R {
-      width: 130px;
-      padding-right: 20px; }
+      width: 110px; }
+      @media (min-width: 992px) {
+        #content #story-text #part3R {
+          width: 130px;
+          padding-right: 20px; } }
+    #content #story-text #part4L {
+      width: 190px; }
     #content #story-text #part1,
     #content #story-text #part2,
     #content #story-text #part3 {
-      padding-bottom: 300px; }
+      padding-bottom: 0px; }
+      @media (min-width: 992px) {
+        #content #story-text #part1,
+        #content #story-text #part2,
+        #content #story-text #part3 {
+          padding-bottom: 300px; } }
     #content #story-text #stand-hours {
       text-align: center;
       display: relative;
