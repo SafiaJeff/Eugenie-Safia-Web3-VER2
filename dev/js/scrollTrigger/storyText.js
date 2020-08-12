@@ -20,11 +20,11 @@ storyTextTimeline.from("#part1L", {alpha:0, xPercent:leftXPercent})
 
 ScrollTrigger.create({
     trigger: "#story-text",
-    start: "top 90%",
-    end: "bottom 100%",
+    start: "top 60%",
+    end: "bottom 140%",
     animation: storyTextTimeline,
     toggleActions: "restart pause play stop",
     scrub: 1,
-    // markers: true,
+    markers: true,
     id:"story-text"
 });
