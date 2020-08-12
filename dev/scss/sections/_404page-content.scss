@@ -113,7 +113,10 @@
         }
 
         #mask-juice{
-            clip-path: inset(.5% 20% 0 0%);
+            @include lg{
+                clip-path: inset(.5% 20% 0 0%);
+            }
+            clip-path: inset(1% 20% 0 0%);
         }
 
     }
@@ -142,13 +145,15 @@
         display: inline-block;
         margin: 0 auto;
         margin-bottom: 100px;
+        // border: 2px red solid;
 
         #lemon1 {
+            // border: 2px red solid;
             height: 100px;
             width: 100px;
-            padding: 40px;
+            padding: 40px 0px;
             margin-bottom: 50px;
-            margin-left: 10vw;
+            margin-left: 100px;
 
             svg {
                 width: 100%;
@@ -157,9 +162,9 @@
             @include md{
                 height: 180px;
                 width: 180px;
-                padding: 40px;
+                padding: 40px 0px;
                 margin-bottom: 80px;
-                margin-left: 30vw;
+                margin-left: 300px;
             }
 
             @include lg {
@@ -174,15 +179,16 @@
         }
 
         #lemon2 {
+            // border: 2px red solid;
             height: 130px;
             width: 130px;
-            padding: 40px;
+            // padding: 40px 0px;
             margin-bottom: 50px;
-            margin-left: 40vw;
+            margin-left: 150px;
 
 
             svg {
-                width: 100%;
+                // width: 100%;
             }
 
             @include md{
@@ -205,11 +211,12 @@
         }
 
         #lemon3 {
-
+            // border: 2px red solid;
             height: 150px;
             width: 150px;
-            padding: 40px;
-            margin-left: 15vw;
+            // padding: 40px 0px;
+            // padding-left: 70px;
+            margin-left: 70px;
 
             @include md{
                 height: 200px;
@@ -227,7 +234,7 @@
                 margin-left: 30vw;
 
                 svg {
-                    width: 100%;
+                    // width: 100%;
                 }
 
 
