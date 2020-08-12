@@ -54,6 +54,14 @@
 		"oAP": "/dev/content/404page-content.html",
 		"oF": 0
 		},
+	"/dev/content/index-content.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"hM": 0,
+		"oA": 1,
+		"oAP": "/dev/content/index-content.html",
+		"oF": 0
+		},
 	"/dev/global/head.kit": {
 		"cB": 0,
 		"ft": 2048,
@@ -69,6 +77,14 @@
 		"oA": 1,
 		"oAP": "/deploy/scripts.html",
 		"oF": 3
+		},
+	"/dev/index.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/deploy/index.html",
+		"oF": 2
 		},
 	"/dev/js/gsap-register.js": {
 		"bF": 0,
