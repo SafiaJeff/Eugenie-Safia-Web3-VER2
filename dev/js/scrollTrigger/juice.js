@@ -25,6 +25,6 @@ strawTimeline
                 animation: strawTimeline,
                 toggleActions: "restart none reverse none",
                 scrub: 10,
-                id: "straw",
+                // id: "straw",
                 markers:  true
             });
