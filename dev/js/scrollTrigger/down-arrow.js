@@ -10,8 +10,8 @@ ScrollTrigger.create({
     end: "bottom 20%",
     animation: arrowTimeline,
     toggleActions: "restart none reverse none",
-    scrub: 1,
-    markers: true
+    scrub: 1
+    // markers: true
 });
 
 
