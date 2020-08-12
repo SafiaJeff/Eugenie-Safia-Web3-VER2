@@ -15,9 +15,8 @@ ScrollTrigger.create({
 
 var strawTimeline = gsap.timeline();
 strawTimeline
-// .to("#straw-juice",{duration:15, yoyo: true, yPercent: -5})
-            // .to("#straw-juice",{duration:10, yPercent: 5})
-            .to("#straw-juice",{duration:10, yPercent: -80})
+    .to("#straw-juice",{duration:15, yPercent: -7})
+            .to("#straw-juice",{duration:10, yPercent: 80})
 
             ScrollTrigger.create({
                 trigger: "#drinking-anim",
