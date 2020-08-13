@@ -27,6 +27,50 @@
 		"oF": 0,
 		"oS": 3
 		},
+	"/deploy/img/child.jpg": {
+		"ft": 16384,
+		"iS": 137557,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/child.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/deploy/img/children.jpg": {
+		"ft": 16384,
+		"iS": 242767,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/children.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/deploy/img/lemon.jpg": {
+		"ft": 16384,
+		"iS": 442254,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/lemon.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/deploy/img/lemonade.jpg": {
+		"ft": 16384,
+		"iS": 192353,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/lemonade.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
 	"/deploy/index.html": {
 		"cB": 0,
 		"ft": 8192,
@@ -343,6 +387,19 @@
 		"ma": 0,
 		"oA": 1,
 		"oAP": "/dev/scss/sections/_404page-content.css",
+		"oF": 0,
+		"oS": 0,
+		"sct": 1
+		},
+	"/dev/scss/sections/_index-content.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"ec": 1,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/dev/scss/sections/_index-content.css",
 		"oF": 0,
 		"oS": 0,
 		"sct": 1
