@@ -99,23 +99,6 @@
     }
 
     #child {
-        // display: block;
-        // margin-left: auto;
-        // margin-right: auto;
-
-        //     display: flex;
-        // align-items: flex-end;
-        // justify-content: center;
-        //     width: 300px;
-
-        //     @include md{
-        //         width: 450px;
-        //     }
-
-        //     @include lg {
-        //         // height: 50%;
-        //         // border-bottom: 10px $light-green solid;
-        //     }
 
         #mask-juice {
             @include lg {
@@ -125,8 +108,11 @@
             clip-path: inset(1% 0% 0 0%);
         }
 
-        border: 2px red solid;
+        // border: 2px red solid;
 
+        height: 0px;
+
+        
         height: 100vh;
         width: 100%;
         display: flex;
@@ -134,7 +120,11 @@
         justify-content: center;
 
         svg {
-            width: 40%;
+      
+            @include md{
+                width: 40%; 
+            }
+            width: 70%;
         }
     }
 
@@ -384,6 +374,7 @@
 
         #part4L {
             width: 180px;
+            margin-bottom: 500px;
 
             @include lg {
                 width: 200px;
@@ -422,6 +413,8 @@
             text-align: center;
             display: relative;
             z-index: 20;
+
+           padding: 100px 0px;
 
             @include lg {
                 // margin-top: 262px;
