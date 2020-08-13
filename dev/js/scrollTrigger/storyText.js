@@ -11,10 +11,6 @@ storyTextTimeline.from("#part1L", {alpha:0, xPercent:leftXPercent})
                 .from("#part3R", {alpha:0, xPercent:RightXPercent})
                 .from("#part4L", {alpha:0, xPercent:leftXPercent})
 
-// storyTextTimeline
-// .from("#part1R", {alpha:0, xPercent:-10})
-// .from("#part2R", {alpha:0, xPercent:-10})
-// .from("#part3R", {alpha:0, xPercent:-10})
 
 
 

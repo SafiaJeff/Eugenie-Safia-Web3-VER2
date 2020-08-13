@@ -510,6 +510,9 @@ textarea {
       @media (min-width: 768px) {
         #content #child svg {
           width: 40%; } }
+      @media (min-width: 992px) {
+        #content #child svg {
+          height: 90%; } }
   #content #sun {
     overflow: hidden;
     margin-left: auto;
@@ -589,24 +592,29 @@ textarea {
   #content #story-text {
     overflow: hidden; }
     #content #story-text .story-left {
-      text-align: left;
-      margin-left: 50px; }
+      text-align: center;
+      display: flex;
+      align-items: flex-end;
+      justify-content: center; }
       @media (min-width: 768px) {
         #content #story-text .story-left {
           margin-left: 100px; } }
       @media (min-width: 992px) {
         #content #story-text .story-left {
-          margin-left: 200px; } }
+          margin-right: 900px; } }
     #content #story-text .story-right {
-      text-align: right;
-      margin-left: 100px;
-      margin-top: 200px; }
+      display: flex;
+      align-items: flex-end;
+      justify-content: center;
+      text-align: center;
+      margin-top: 200px;
+      margin-left: 150px; }
       @media (min-width: 768px) {
         #content #story-text .story-right {
-          margin-left: 500px; } }
+          margin-left: 550px; } }
       @media (min-width: 992px) {
         #content #story-text .story-right {
-          margin-left: 1000px; } }
+          margin-left: 900px; } }
     #content #story-text p {
       background-color: #fff;
       font-size: 1.5625rem;
@@ -622,48 +630,59 @@ textarea {
         #content #story-text p {
           font-size: 1.875rem;
           width: 170px; } }
-    #content #story-text #part1L {
-      width: 180px; }
-      @media (min-width: 992px) {
-        #content #story-text #part1L {
-          width: 210px;
-          padding-left: 20px; } }
-    #content #story-text #part1R {
-      width: 120px; }
-      @media (min-width: 992px) {
-        #content #story-text #part1R {
-          width: 130px;
-          padding-right: 20px; } }
-    #content #story-text #part2L {
-      width: 80px; }
-      @media (min-width: 992px) {
-        #content #story-text #part2L {
-          width: 90px;
-          padding-left: 20px; } }
-    #content #story-text #part2R {
-      width: 80px; }
-      @media (min-width: 992px) {
-        #content #story-text #part2R {
-          width: 100px;
-          padding-right: 20px; } }
-    #content #story-text #part3L {
-      width: 100px; }
-      @media (min-width: 992px) {
-        #content #story-text #part3L {
-          width: 120px;
-          padding-left: 20px; } }
-    #content #story-text #part3R {
-      width: 100px; }
-      @media (min-width: 992px) {
-        #content #story-text #part3R {
-          width: 130px;
-          padding-right: 20px; } }
+    #content #story-text #flex1 {
+      display: flex;
+      flex-direction: row;
+      place-content: center;
+      align-items: center; }
+      #content #story-text #flex1 #part1L {
+        width: 180px; }
+        @media (min-width: 992px) {
+          #content #story-text #flex1 #part1L {
+            width: 210px; } }
+      #content #story-text #flex1 #part1R {
+        width: 120px; }
+        @media (min-width: 992px) {
+          #content #story-text #flex1 #part1R {
+            width: 130px; } }
+    #content #story-text #flex2 {
+      display: flex;
+      flex-direction: row;
+      place-content: center;
+      align-items: center; }
+      #content #story-text #flex2 #part2L {
+        width: 80px; }
+        @media (min-width: 992px) {
+          #content #story-text #flex2 #part2L {
+            width: 90px; } }
+      #content #story-text #flex2 #part2R {
+        width: 80px; }
+        @media (min-width: 992px) {
+          #content #story-text #flex2 #part2R {
+            width: 100px; } }
+    #content #story-text #flex3 {
+      display: flex;
+      flex-direction: row;
+      place-content: center;
+      align-items: center; }
+      #content #story-text #flex3 #part3L {
+        width: 100px; }
+        @media (min-width: 992px) {
+          #content #story-text #flex3 #part3L {
+            width: 120px; } }
+      #content #story-text #flex3 #part3R {
+        width: 100px; }
+        @media (min-width: 992px) {
+          #content #story-text #flex3 #part3R {
+            width: 130px; } }
     #content #story-text #part4L {
       width: 180px;
-      margin-bottom: 500px; }
+      margin-bottom: 500px;
+      margin-left: 80px; }
       @media (min-width: 992px) {
         #content #story-text #part4L {
-          width: 200px; } }
+          width: 200px;
+          margin-left: 250px; } }
     #content #story-text #part1,
     #content #story-text #part2,
     #content #story-text #part3 {
@@ -673,15 +692,6 @@ textarea {
         #content #story-text #part2,
         #content #story-text #part3 {
           padding-bottom: 300px; } }
-    #content #story-text #stand-hours {
-      text-align: center;
-      display: relative;
-      z-index: 20;
-      background-color: #FFFDF3; }
-      @media (min-width: 992px) {
-        #content #story-text #stand-hours {
-          margin-top: 262px;
-          padding: 150px 0px 140px 0px; } }
   #content #end #stand-hours {
     text-align: center;
     display: relative;
