@@ -124,6 +124,11 @@
             @include md{
                 width: 40%; 
             }
+
+            @include lg{
+                height: 90%;
+            }
+            
             width: 70%;
         }
     }

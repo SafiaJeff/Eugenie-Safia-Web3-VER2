@@ -510,6 +510,9 @@ textarea {
       @media (min-width: 768px) {
         #content #child svg {
           width: 40%; } }
+      @media (min-width: 992px) {
+        #content #child svg {
+          height: 90%; } }
   #content #sun {
     overflow: hidden;
     margin-left: auto;
