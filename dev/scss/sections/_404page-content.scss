@@ -280,7 +280,7 @@
             }
 
             @include lg {
-                margin-left: 200px;
+                margin-right: 900px;
             }
 
 
@@ -295,14 +295,16 @@
 
             margin-top: 200px;
 
+            margin-left: 150px;
+
 
 
             @include md {
-                margin-left: 500px;
+                margin-left: 550px;
             }
 
             @include lg {
-                margin-left: 1000px;
+                margin-left: 900px;
             }
 
 
@@ -327,83 +329,104 @@
             }
         }
 
-        #flex-container{
+        #flex1 {
             display: flex;
-            border: solid 2px red;
+            // border: solid 2px red;
             flex-direction: row;
             place-content: center;
-            // align-items: center;
+            align-items: center;
+
             #part1L {
                 width: 180px;
-    
-                
-    
+
                 @include lg {
                     width: 210px;
                     // padding-left: 20px;
                 }
-    
-            }
-        }
-        
 
-        #part1R {
-            width: 120px;
-
-            @include lg {
-                width: 130px;
-                // padding-right: 20px;
             }
 
-        }
 
-        #part2L {
-            width: 80px;
 
-            @include lg {
-                width: 90px;
-                // padding-left: 20px;
-            }
-
-        }
-
-        #part2R {
-            width: 80px;
-
-            @include lg {
-                width: 100px;
-                // padding-right: 20px;
-            }
-
-        }
-
-        #part3L {
-
-            width: 100px;
-
-            @include lg {
+            #part1R {
                 width: 120px;
-                // padding-left: 20px;
-            }
 
+                @include lg {
+                    width: 130px;
+                    // padding-right: 20px;
+                }
+
+            }
         }
 
-        #part3R {
-            width: 100px;
 
-            @include lg {
-                width: 130px;
-                // padding-right: 20px;
+        #flex2 {
+            display: flex;
+            // border: solid 2px red;
+            flex-direction: row;
+            place-content: center;
+            align-items: center;
+
+            #part2L {
+                width: 80px;
+
+                @include lg {
+                    width: 90px;
+                    // padding-left: 20px;
+                }
+
             }
 
+            #part2R {
+                width: 80px;
+
+                @include lg {
+                    width: 100px;
+                    // padding-right: 20px;
+                }
+
+            }
+        }
+
+        #flex3 {
+
+            display: flex;
+            // border: solid 2px red;
+            flex-direction: row;
+            place-content: center;
+            align-items: center;
+
+            #part3L {
+
+                width: 100px;
+
+                @include lg {
+                    width: 120px;
+                    // padding-left: 20px;
+                }
+
+            }
+
+            #part3R {
+                width: 100px;
+
+                @include lg {
+                    width: 130px;
+                    // padding-right: 20px;
+                }
+
+            }
         }
 
         #part4L {
             width: 180px;
             margin-bottom: 500px;
 
+            margin-left: 80px;
+
             @include lg {
                 width: 200px;
+                margin-left: 250px;
             }
         }
 
