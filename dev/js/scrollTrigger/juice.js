@@ -24,7 +24,7 @@ strawTimeline
                 end: "bottom 80%",
                 animation: strawTimeline,
                 toggleActions: "restart none reverse none",
-                scrub: 10,
+                scrub: 10
                 // id: "straw",
-                markers:  true
+                // markers:  true
             });
