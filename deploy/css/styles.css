@@ -359,17 +359,6 @@ ul {
     color: #fff;
     text-decoration: none; }
 
-.thought-bubble-left {
-  border-radius: 20px;
-  padding: 5px 10px 5px 10px;
-  background-color: #fff;
-  width: 200px; }
-
-.thought-bubble-right {
-  border-radius: 20px;
-  background-color: #fff;
-  width: 100px; }
-
 .index-spacing {
   margin-bottom: 30px; }
   @media (min-width: 768px) {
