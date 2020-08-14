@@ -76,3 +76,19 @@ ul{
     // border: 2px solid $bright-yellow;
     width: 100px;
 }
+
+.index-spacing{
+    margin-bottom: 30px;
+
+    @include md{
+        margin-bottom: 50px;
+    }
+
+    @include lg{
+        margin-bottom: 100px;
+    }
+}
+
+.index-body-text-spacing{
+    margin-bottom: 10px;
+}

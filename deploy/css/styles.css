@@ -370,6 +370,17 @@ ul {
   background-color: #fff;
   width: 100px; }
 
+.index-spacing {
+  margin-bottom: 30px; }
+  @media (min-width: 768px) {
+    .index-spacing {
+      margin-bottom: 50px; } }
+  @media (min-width: 992px) {
+    .index-spacing {
+      margin-bottom: 100px; } }
+.index-body-text-spacing {
+  margin-bottom: 10px; }
+
 /* =============
     Typography
 ============= */
