@@ -35,7 +35,7 @@
 		"oAP": "/deploy/img/child.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 1,
+		"opt": 0,
 		"q": 100
 		},
 	"/deploy/img/children.jpg": {
@@ -46,7 +46,7 @@
 		"oAP": "/deploy/img/children.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 1,
+		"opt": 0,
 		"q": 100
 		},
 	"/deploy/img/lemon.jpg": {
@@ -57,7 +57,7 @@
 		"oAP": "/deploy/img/lemon.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 1,
+		"opt": 0,
 		"q": 100
 		},
 	"/deploy/img/lemonade.jpg": {
@@ -68,7 +68,7 @@
 		"oAP": "/deploy/img/lemonade.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 1,
+		"opt": 0,
 		"q": 100
 		},
 	"/deploy/index.html": {

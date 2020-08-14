@@ -59,20 +59,36 @@ ul{
 }
 
 
-.thought-bubble-left{
+// .thought-bubble-left{
     
-        border-radius: 20px;
-        padding: 5px 10px 5px 10px;
-        background-color: $white;
-        // border: 2px solid $bright-yellow;
-        width: 200px;
+//         border-radius: 20px;
+//         padding: 5px 10px 5px 10px;
+//         background-color: $white;
+//         // border: 2px solid $bright-yellow;
+//         width: 200px;
+// }
+
+// .thought-bubble-right{
+    
+//     border-radius: 20px;
+//     // padding: 5px 10px 5px 10px;
+//     background-color: $white;
+//     // border: 2px solid $bright-yellow;
+//     width: 100px;
+// }
+
+.index-spacing{
+    margin-bottom: 30px;
+
+    @include md{
+        margin-bottom: 50px;
+    }
+
+    @include lg{
+        margin-bottom: 100px;
+    }
 }
 
-.thought-bubble-right{
-    
-    border-radius: 20px;
-    // padding: 5px 10px 5px 10px;
-    background-color: $white;
-    // border: 2px solid $bright-yellow;
-    width: 100px;
+.index-body-text-spacing{
+    margin-bottom: 10px;
 }
